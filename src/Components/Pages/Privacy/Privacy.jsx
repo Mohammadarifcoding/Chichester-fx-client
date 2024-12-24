@@ -10,14 +10,14 @@ const Privacy = () => {
                     mobile applications or otherwise interact with us in the European Economic Area (“EEA”), how we share your information and the steps we take to protect your information.
                 </p>
                 <h2 className="text-xl font-semibold mt-4 mb-2">1. Who we are and the application of this Privacy Notice</h2>
-                <p>This Privacy Notice applies to Worthing FX Services Ltd, which trades under Worthing FX, Worthing FX, and WORFX (“we”, “our” or “us”).</p>
+                <p>This Privacy Notice applies to Chichester FX Services Ltd, which trades under Chichester FX, Chichester FX, and WORFX (“we”, “our” or “us”).</p>
                 <p>
                     We are committed to the privacy and security of your Personal Data (as defined in section 2 below). This Privacy Notice describes how we collect and use Personal Data, in
                     accordance with applicable law and our standards of ethical conduct.
                 </p>
                 <p>
-                    Worthing FX Services Ltd, located at 35 Chapel Road, Worthing, BN11 1EG will be the “data controller” in relation to any Personal Data provided to us directly in person, or via
-                    email, phone, and post. This means that Worthing FX Services Ltd is responsible for deciding how it will hold and use Personal Data about you.
+                    Chichester FX Services Ltd, located at 35 Chapel Road, Chichester, BN11 1EG will be the “data controller” in relation to any Personal Data provided to us directly in person, or via
+                    email, phone, and post. This means that Chichester FX Services Ltd is responsible for deciding how it will hold and use Personal Data about you.
                 </p>
                 <p>
                     By using or navigating the Website or any product or service offered by us (collectively, the "Services"), you acknowledge that you have read, understand, and agree to be bound by
@@ -46,7 +46,7 @@ const Privacy = () => {
                 <p>
                     Personal Data You Give Us. We may collect Personal Data when you give it to us, including when you indicate that you would like to receive any of our Services, when you register
                     with us, when you complete forms online, when you speak with us over the telephone, when you speak with us in person, when you write to us, and when you visit the Website and, in
-                    certain circumstances as set out in this Privacy Notice, when you have provided your information to a related company operating under the Worthing FX brand or www.Worthingfx.com.
+                    certain circumstances as set out in this Privacy Notice, when you have provided your information to a related company operating under the Chichester FX brand or www.chichesterfx.com.
                     We will also collect details of transactions you carry out through the Website and of the fulfilment of such transactions.
                 </p>
                 <p>
@@ -96,7 +96,7 @@ const Privacy = () => {
                         relation to our Services.
                     </li>
                     <li>
-                        When necessary in the pursuit of a legitimate interest of Worthing FX: we may use your personal information when you use our websites or mobile apps to analyze and improve our
+                        When necessary in the pursuit of a legitimate interest of Chichester FX: we may use your personal information when you use our websites or mobile apps to analyze and improve our
                         products, locations, services, operations, and your customer experience, and for measuring marketing return on investment and brand satisfaction in order to enhance your
                         experience.
                     </li>
@@ -125,7 +125,7 @@ const Privacy = () => {
                         communications in relation to our Services.
                     </li>
                     <li>
-                        <strong>When necessary in the pursuit of a legitimate interest of Worthing FX:</strong> we may use your personal information when you use our websites or mobile apps to analyze
+                        <strong>When necessary in the pursuit of a legitimate interest of Chichester FX:</strong> we may use your personal information when you use our websites or mobile apps to analyze
                         and improve our products, locations, services, operations and your customer experience, and for measuring marketing return on investment and brand satisfaction in order to
                         enhance your experience. We may use aggregate data for a variety of purposes, including analyzing user behavior and characteristics in order to measure interest in (and use of)
                         the various portions and areas of our Services. We may also use your personal information to provide customer services and to help protect the security and integrity of our
@@ -152,17 +152,17 @@ const Privacy = () => {
                 </p>
                 <ul className="list-disc pl-6 mb-4">
                     <li>
-                        <strong>Legal and Regulatory Requirements:</strong> Worthing FX shall retain Personal Data and transactional data for those periods required to comply with all retention and
+                        <strong>Legal and Regulatory Requirements:</strong> Chichester FX shall retain Personal Data and transactional data for those periods required to comply with all retention and
                         reporting obligations under applicable laws, including without limitation commercial, tax and anti-money laundering laws and regulations. Generally, this retention period will
                         be a minimum of five years from the date of your transaction or the date our business relationship with you is terminated.
                     </li>
                     <li>
-                        <strong>Customer Service (administration of customer relationship, complaint handling, etc.):</strong> Worthing FX may process and retain your Personal Data for as long as we
+                        <strong>Customer Service (administration of customer relationship, complaint handling, etc.):</strong> Chichester FX may process and retain your Personal Data for as long as we
                         have an on-going relationship with you. Once our relationship has ended (for example because the Services have been delivered and paid for in full, or you have exercised your
                         right to withdraw from the contract), we will, subject to any retention requirements under applicable laws, erase or anonymize your Personal Data.
                     </li>
                     <li>
-                        <strong>Marketing:</strong> Personal Data provided to us for marketing purposes may be retained until you opt out or until Worthing FX becomes aware that any such data is
+                        <strong>Marketing:</strong> Personal Data provided to us for marketing purposes may be retained until you opt out or until Chichester FX becomes aware that any such data is
                         inaccurate.
                     </li>
                 </ul>
@@ -181,7 +181,7 @@ const Privacy = () => {
                     stored in a secure location behind firewalls and other sophisticated security systems with limited (need-to-know) administrative access.
                 </p>
                 <p>
-                    All Worthing FX employees who have access to, or are associated with, the processing of Personal Data are contractually obligated to respect the confidentiality of your data and
+                    All Chichester FX employees who have access to, or are associated with, the processing of Personal Data are contractually obligated to respect the confidentiality of your data and
                     abide by the privacy standards we have established.
                 </p>
                 <p>
@@ -199,7 +199,7 @@ const Privacy = () => {
                 </p>
                 <h2 className="text-xl font-semibold mt-4 mb-2">10. Direct marketing</h2>
                 <p>
-                    With your consent, Worthing FX may sometimes contact you (by email, SMS text, letter, or phone) to provide targeted marketing about our Services. Such marketing communications will
+                    With your consent, Chichester FX may sometimes contact you (by email, SMS text, letter, or phone) to provide targeted marketing about our Services. Such marketing communications will
                     only be sent to you if you gave your consent (when you registered for our Services or at another point) and you have not withdrawn such consent or if there is another legitimate
                     basis to send such communications to you.
                 </p>
@@ -237,7 +237,7 @@ const Privacy = () => {
                     </li>
                 </ul>
                 <p>
-                    Also, where you believe that Worthing FX has not complied with its obligations under this Privacy Notice or the applicable law, you have the right to make a complaint to a relevant
+                    Also, where you believe that Chichester FX has not complied with its obligations under this Privacy Notice or the applicable law, you have the right to make a complaint to a relevant
                     Data Protection Authority or through the courts. Although not required, we would encourage you to let us know about any complaint you might have, and we will respond in line with
                     our Complaints Procedure (see Section 12 of this Privacy Notice).
                 </p>
@@ -251,15 +251,15 @@ const Privacy = () => {
                     contact details are set out below.
                 </p>
                 <p>Privacy-related complaints or concerns can be lodged with our privacy team:</p>
-                <p>Worthing FX employees are required to direct any privacy-related complaints or concerns to our privacy team.</p>
-                <p>Worthing FX will aim to send an acknowledgement within 10 days of receipt of the complaint/concern.</p>
-                <p>Worthing FX will conduct an investigation in accordance with relevant laws and will aim to respond substantively within 28 days of receipt of the complaint/concern.</p>
+                <p>Chichester FX employees are required to direct any privacy-related complaints or concerns to our privacy team.</p>
+                <p>Chichester FX will aim to send an acknowledgement within 10 days of receipt of the complaint/concern.</p>
+                <p>Chichester FX will conduct an investigation in accordance with relevant laws and will aim to respond substantively within 28 days of receipt of the complaint/concern.</p>
                 <p>
-                    If further time is required to investigate your complaint/concern, Worthing FX will write to you within 28 days of receiving the complaint/concern, informing you of the
+                    If further time is required to investigate your complaint/concern, Chichester FX will write to you within 28 days of receiving the complaint/concern, informing you of the
                     investigation timeline which will be no longer than an additional two months for the complaint procedure to be concluded.
                 </p>
-                <p>In the case of a rejection of the complaint, Worthing FX will provide you with a written explanation for the rejection.</p>
-                <p>If the complaint/concern is considered justified, Worthing FX will take reasonable steps to try to address the complaint/concern to your reasonable satisfaction.</p>
+                <p>In the case of a rejection of the complaint, Chichester FX will provide you with a written explanation for the rejection.</p>
+                <p>If the complaint/concern is considered justified, Chichester FX will take reasonable steps to try to address the complaint/concern to your reasonable satisfaction.</p>
                 <p>
                     If you are not satisfied with the reply/outcome, or otherwise with the handling of the complaint, you have the right to lodge a claim before a relevant Data Protection Authority or
                     the competent courts.
@@ -272,9 +272,9 @@ const Privacy = () => {
                 </p>
                 <p className="font-semibold capitalize my-4">
                     {' '}
-                    please contact us by <br /> telephone on 01903202702, <br /> e-mail at <span>support@worthingfx.co.uk</span> <br /> or write to
+                    please contact us by <br /> telephone on 01903202702, <br /> e-mail at <span>support@chichesterfx.com</span> <br /> or write to
                 </p>
-                <p className=" italic text-gray-500">Worthing Fx Services, 35 Chapel Road, Worthing, West Sussex, BN11 1 EG</p>
+                <p className=" italic text-gray-500">Chichester Fx Services, 37 East Street CHICHESTER P019 1HS</p>
             </div>
         </div>
     );

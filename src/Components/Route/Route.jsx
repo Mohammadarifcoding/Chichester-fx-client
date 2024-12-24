@@ -90,7 +90,7 @@ const router = createBrowserRouter([
             {
                 path: 'orderDetails/:id',
                 element: <OrderDetails></OrderDetails>,
-                loader: ({ params }) => fetch(`https://worthing-fx-server.vercel.app/details/${params.id}`)
+                loader: ({ params }) => fetch(`https://chichester-fx-server.vercel.app/details/${params.id}`)
             },
             {
                 path: 'activeOrders',
@@ -99,7 +99,7 @@ const router = createBrowserRouter([
             {
                 path: 'update/:currency',
                 element: <UpdateCurrency></UpdateCurrency>,
-                loader: ({ params }) => fetch(`https://worthing-fx-server.vercel.app/singleCurrency/${params.currency}`)
+                loader: ({ params }) => fetch(`https://chichester-fx-server.vercel.app/singleCurrency/${params.currency}`)
             },
             {
                 path:'Users',

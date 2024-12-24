@@ -156,10 +156,8 @@ const CheckingPoint = ({ setAddressSelected, setNextForm, nextFrom, currentWay }
                         >
                             <option value="location">Select locaiton</option>
 
-                            <option value="35 CHAPEL ROAD WORTHING BN11 1EG Tel: 01903 202702">35 CHAPEL ROAD WORTHING BN11 1EG Tel: 01903 202702</option>
-                            <option value="123 QUEENS ROAD BRIGHTON BN1 3WB Tel:01273 030708"> 123 QUEENS ROAD BRIGHTON BN1 3WB Tel:01273 030708</option>
+                            <option value="37 East Street CHICHESTER P019 1HS Tel: 01903 202702">37 East Street CHICHESTER P019 1HS Tel: 01903 202702</option>
                         </select>
-
                         <div className="flex justify-end mt-5 ">
                             <button onClick={GetAddress} className="flex bg-[#93C94E] px-5 py-3 hover:bg-[#678c36] hover:text-white gap-2">
                                 Next <span> + </span>

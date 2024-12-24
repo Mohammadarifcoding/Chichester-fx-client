@@ -4,7 +4,7 @@ import Container from '../Container/Container';
 const Info = () => {
     const data = [
        {
-        text:'Explore our currency exchange services in Worthing for seamless transactions with foreign currency at cometitive rates',
+        text:'Explore our currency exchange services in Chichester for seamless transactions with foreign currency at cometitive rates',
         
        },
        {
@@ -12,7 +12,7 @@ const Info = () => {
         
        },
        {
-        text:'Looking for foreign currency near Worthing ? Choose from over 70 currencies at Worthing FX'
+        text:'Looking for foreign currency near Chichester ? Choose from over 70 currencies at Chichester FX'
        },
        {
         text:'Use our currency converter tool to stay updated on foriegn exchange rates before your travels.'
@@ -21,13 +21,13 @@ const Info = () => {
         text:'Count on us for competitive rates from 70+ currencies to meet all your exchange needs.'
        },
        {
-        text:'Worthing FX offers reliable and efficient currency exchange services'
+        text:'Chichester FX offers reliable and efficient currency exchange services'
        },
        {
         text:'Locate our nearest bureau de change for convenient currency exchange near you'
        },
        {
-        text:'Change money easily with our currency exchange in Worthing '
+        text:'Change money easily with our currency exchange in Chichester '
        }
     ]
     return (

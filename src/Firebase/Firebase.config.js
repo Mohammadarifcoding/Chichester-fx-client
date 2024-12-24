@@ -6,13 +6,14 @@ import { getAuth } from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA38WsirmrZ_tgpZgQgMHWkO4n6eTZyLeQ",
-  authDomain: "worthing-fx.firebaseapp.com",
-  projectId: "worthing-fx",
-  storageBucket: "worthing-fx.appspot.com",
-  messagingSenderId: "882405430593",
-  appId: "1:882405430593:web:4a82107dbc4d110017bdc0"
+  apiKey: "AIzaSyBzN32uOmLC19qSD0yIc5FGx8UWhgsU-vs",
+  authDomain: "chichester-fx.firebaseapp.com",
+  projectId: "chichester-fx",
+  storageBucket: "chichester-fx.firebasestorage.app",
+  messagingSenderId: "505590747963",
+  appId: "1:505590747963:web:bf0fe11137a66fd86c5d1e"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

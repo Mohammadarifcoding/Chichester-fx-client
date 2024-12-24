@@ -4,20 +4,20 @@ import Container from "../../../Shared/Container/Container";
 const Accordin = () => {
   const [isOpen, setIsOpen] = useState(null);
   const accordionsData = [
-    { title: 'How do I place an order for currency exchange?', description: `To place an order for currency exchange with Worthing FX, follow these steps:
+    { title: 'How do I place an order for currency exchange?', description: `To place an order for currency exchange with Chichester FX, follow these steps:
     Visit our website or branch.
     Choose the currency and amount you want to exchange. 
     Fill in the form with the needed information. 
     Choose your preferred location for collection.
     Order online, and then pick up and pay in-store.
     `},
-    { title: 'What currencies can I exchange at Worthing FX?', description: 'We offer a wide range of 70+ foreign currencies for exchange, including popular options like USD, EUR, JPY, and AUD. For the complete list check our website or contact us directly.'},
+    { title: 'What currencies can I exchange at Chichester FX?', description: 'We offer a wide range of 70+ foreign currencies for exchange, including popular options like USD, EUR, JPY, and AUD. For the complete list check our website or contact us directly.'},
     { title: 'Are there any hidden charges or commissions?', description: 'We do not charge commission or have any hidden charges. You pay what you see!'},
     { title: 'How long does it take to process a currency exchange order?', description: ' Most currency exchanges are processed within a few minutes to a few hours as we carry over 70+ currencies in stock. However, factors like transaction volume and availability may affect the processing time.'},
     { title: 'Can I reserve currency in advance?', description: 'You can conveniently pre-order currency by using our website or by contacting our customer service. We will make sure that the requested amount is available for pick up at their preferred time and location. '},
     { title: 'What identification or documents do I need for currency exchange?', description: 'In order to complete a currency exchange or money transfer, you’ll need a valid government-issued ID (passport, driver’s license, BRP) and, in some cases, additional documentation for larger transactions.  '},
     { title: 'Do you offer international money transfers?', description: 'We offer fast, secure, and efficient international money transfer services via Western Union and WorFX. Transfer funds to family, friends worldwide! '},
-    { title: 'How can I contact customer support if I have questions?', description: 'You can reach our customer support team via phone at 01903202702, or email us at support@worthingfx.co.uk, or visit us during business hours. We’re here to assist you with any queries!'}];
+    { title: 'How can I contact customer support if I have questions?', description: 'You can reach our customer support team via phone at 01903202702, or email us at support@chichesterfx.com, or visit us during business hours. We’re here to assist you with any queries!'}];
 
   const toggle = (idx) => {
     setIsOpen((prevIdx) => (prevIdx === idx ? null : idx));

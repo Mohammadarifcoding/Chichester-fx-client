@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiousInstace = axios.create({
-    baseURL:'https://worthing-fx-server.vercel.app'
+    baseURL:'https://chichester-fx-server.vercel.app'
 })
 
 // baseURL:'https://worthing-fx-server.vercel.app'

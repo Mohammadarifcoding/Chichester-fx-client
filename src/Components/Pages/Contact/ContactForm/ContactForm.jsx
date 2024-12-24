@@ -20,7 +20,7 @@ const ContacthtmlForm = () => {
                         /> */}
 
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.344714160969!2d-0.14551752439320267!3d50.824778560342224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875850b54e4e365%3A0xc0d52c097a0eb22e!2zMTIzIFF1ZWVucyBSZCwgQnJpZ2h0b24gYW5kIEhvdmUsIEJyaWdodG9uLCDgpq_gp4HgppXgp43gpqTgprDgpr7gppzgp43gpq8!5e0!3m2!1sbn!2sbd!4v1707184540809!5m2!1sbn!2sbd"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2122.732250869498!2d-0.7759829!3d50.836363600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48745284f45bc985%3A0x2a1c9ff2e63cf866!2zMzcgRWFzdCBTdCwgQ2hpY2hlc3RlciBQTzE5IDFIUywg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Kac4KeN4Kav!5e1!3m2!1sbn!2sbd!4v1735138700810!5m2!1sbn!2sbd"
                             width="100%"
                             height="100%"
                             className="absolute inset-0"
@@ -33,8 +33,8 @@ const ContacthtmlForm = () => {
                         <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                             <div className='lg:w-1/2'>
                             <div className="w-full px-6">
-                                <h2 className="title-font font-bold text-gray-900 tracking-widest md:text-xl sm:text-lg text-base">Worthing FX </h2>
-                                <p className="mt-1 md:text-base text-sm">35 CHAPEL RD WORTHING BN11 1EG Tel:01903 202702</p>
+                                <h2 className="title-font font-bold text-gray-900 tracking-widest md:text-xl sm:text-lg text-base">Chichester FX </h2>
+                                <p className="mt-1 md:text-base text-sm">37 East Street CHICHESTER P019 1HS Tel:01903 202702</p>
                             </div>
                             <div className="w-full px-6 mt-4">
                              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">PHONE</h2>
@@ -42,7 +42,7 @@ const ContacthtmlForm = () => {
                             </div>
                             <div className="w-full px-6 mt-4">
                              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">Email</h2>
-                                <p className="leading-relaxed md:text-base text-sm">support@worthingfx.co.uk</p>
+                                <p className="leading-relaxed md:text-base text-sm">support@chichesterfx.com</p>
                             </div>
                             </div>
 
@@ -65,21 +65,13 @@ const ContacthtmlForm = () => {
                             </div>
 
 
-                            {/* <div className="lg:w-1/2 px-6 mt-8 lg:mt-0">
-                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small">EMAIL</h2>
-                                <a className="text-indigo-500 leading-relaxed md:text-base text-sm">support@WorthingFx.com </a>
-                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">PHONE</h2>
-                                <p className="leading-relaxed md:text-base text-sm">01273030708</p>
-                            </div> */}
-
-
 
 
                         </div>
                         
                     </div>
                     <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                        <h2 className="text-gray-900 text-4xl mb-1 font-bold title-font">Contact Worthing FX</h2>
+                        <h2 className="text-gray-900 text-4xl mb-1 font-bold title-font">Contact Chichester FX</h2>
                         <p className="leading-relaxed mb-5 text-gray-600">We'd love to hear from you! Please feel free to reach out to us</p>
                         <div className="relative mb-4">
                             <label htmlFor="name" className="leading-7 text-sm text-gray-600">

@@ -34,7 +34,7 @@ const Layout = () => {
                 <meta
                     name="description"
                     content="Zero commission, competitive rates, and the convenience of click
-& collect at Worthing FX. Choose from over 70 currencies for your
+& collect at Chichester FX. Choose from over 70 currencies for your
 next adventure."
                 />
             </Helmet>

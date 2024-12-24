@@ -21,7 +21,7 @@ const SecureBox = () => {
     const handleAccess = () => {
         // Implement authentication logic here
 
-        if (userName == 'WorthingFx' && userPassword == 'Acess123') {
+        if (userName == 'ChichesterFx' && userPassword == 'Acess123') {
             nav(from, { replace: true });
             setAdminAcess(true);
             return;
