@@ -30,8 +30,23 @@ const ContacthtmlForm = () => {
                             referrerPolicy="no-referrer-when-downgrade"
                         />
 
-                        <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
-                            <div className='lg:w-1/2'>
+<div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                        <div className='lg:w-1/2'>
+                            <div className="w-full px-6">
+                                <h2 className="title-font font-bold text-gray-900 tracking-widest md:text-xl sm:text-lg text-base">Worthing FX </h2>
+                                <p className="mt-1 md:text-base text-sm">35 CHAPEL RD WORTHING BN11 1EG Tel:01903 202702</p>
+                            </div>
+                            <div className="w-full px-6 mt-4">
+                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">PHONE</h2>
+                                <p className="leading-relaxed md:text-base text-sm">01903 202702</p>
+                            </div>
+                            <div className="w-full px-6 mt-4">
+                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">Email</h2>
+                                <p className="leading-relaxed md:text-base text-sm">support@worthingfx.co.uk</p>
+                            </div>
+                            </div>
+
+                            <div className='lg:w-1/2 lg:mt-0 mt-6'>
                             <div className="w-full px-6">
                                 <h2 className="title-font font-bold text-gray-900 tracking-widest md:text-xl sm:text-lg text-base">Chichester FX </h2>
                                 <p className="mt-1 md:text-base text-sm">37 East Street CHICHESTER P019 1HS Tel:01903 202702</p>
@@ -49,7 +64,7 @@ const ContacthtmlForm = () => {
 
 
 
-                            <div className='lg:w-1/2 lg:mt-0 mt-6'>
+                            {/* <div className='lg:w-1/2 lg:mt-0 mt-6'>
                             <div className="w-full px-6">
                                 <h2 className="title-font font-bold text-gray-900 tracking-widest md:text-xl sm:text-lg text-base">Brighton FX</h2>
                                 <p className="mt-1 md:text-base text-sm">123 QUEENS ROAD BRIGHTON BN1 3WB Tel:01273 030708</p>
@@ -62,7 +77,7 @@ const ContacthtmlForm = () => {
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">Email</h2>
                                 <p className="leading-relaxed md:text-base text-sm">support@brightonfx.com</p>
                             </div>
-                            </div>
+                            </div> */}
 
 
 

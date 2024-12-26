@@ -43,7 +43,7 @@ const Calculator = () => {
                             onClick={() => {
                                 setActiveTab(ind);
                             }}
-                            className={`bg-white flex items-center  text-[#1E4A9A] border-none outline-none  rounded-tl-lg  sm:px-5 text-center justify-center sm:py-4 px-5 py-3 w-[50%] `}
+                            className={`bg-white flex items-center  text-[#1E4A9A] border-none outline-none  rounded-tl-lg  sm:px-5 text-center justify-center sm:py-4 px-5 py-3 w-[50%] cursor-pointer`}
                             key={item.id}
                         >
                             {item.name}

@@ -32,7 +32,7 @@ const AddCurrency = () => {
         axios
             .get(`https://api.apilayer.com/exchangerates_data/convert?to=${currencyName}&from=GBP&amount=1`, {
                 headers: {
-                    apikey: "T2xiIiLGT74lpNubi61MkKWOR0qu2s46"
+                    apikey: "BDt8QXZtz5eTn302pdVvS3zjfRcMBWE0"
                 }
             })
             .then((res) => {
