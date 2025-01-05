@@ -66,7 +66,7 @@ const ContacthtmlForm = () => {
 
                             {/* <div className='lg:w-1/2 lg:mt-0 mt-6'>
                             <div className="w-full px-6">
-                                <h2 className="title-font font-bold text-gray-900 tracking-widest md:text-xl sm:text-lg text-base">Brighton FX</h2>
+                                <h2 className="title-font font-bold text-gray-900 tracking-widest md:text-xl sm:text-lg text-base">Chichester FX</h2>
                                 <p className="mt-1 md:text-base text-sm">123 QUEENS ROAD BRIGHTON BN1 3WB Tel:01273 030708</p>
                             </div>
                             <div className="w-full px-6 mt-4">

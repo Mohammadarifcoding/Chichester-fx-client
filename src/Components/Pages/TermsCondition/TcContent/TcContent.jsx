@@ -2,12 +2,12 @@ const TcContent = () => {
     return (
         <div className="max-w-[1470px] mx-5 lg:mx-auto  my-12">
             <h2 className="font-semibold text-lg text-justify">
-                Chichester FX is a trading name of Chichester FX Services LTD, a company incorporated in England with registered number 10874304 whose registered address is at 35 Chapel Road, Chichester,
+                Chichester FX is a trading name of Worthing FX Services LTD, a company incorporated in England with registered number 10874304 whose registered address is at 35 Chapel Road, Worthing,
                 West Sussex, BN11 1EG is authorised by the Financial Conduct Authority (“FCA”) under the Payment Services Regulations 2009 (SI 2009 No. 209) (the “Regulations”) for the provision of
-                payment services with FCA register number 942118 and trades under the name 'Chichester FX, Chichester FX, WORFX' (hereinafter "we”, “our” or “us”).
+                payment services with FCA register number 942118 and trades under the name 'Chichester FX, Worthing FX, WORFX' (hereinafter "we”, “our” or “us”).
             </h2>
             <p className="text-normal my-8">
-                1. These terms and conditions (the “Terms and Conditions”) are applicable to and are available on our website www.chichesterFx.com (“Our Website”). They explain your responsibilities to
+                1. These terms and conditions (the “Terms and Conditions”) are applicable to and are available on our website www.brightonfx.com (“Our Website”). They explain your responsibilities to
                 us and our responsibilities to you, including (i) how our agreement with you can be terminated prior to completion of a Payment Transaction, (ii) under what circumstances a Payment
                 Order may be cancelled and (iii) the extent of our liability to you. These Terms set out your legal rights and obligations when using the Service. We recommend that you read these
                 carefully. By accessing and using the Service, you agree to be bound by the terms of this Agreement.
@@ -24,7 +24,7 @@ const TcContent = () => {
                 contained in this Website. We makes no illustration or warranty as to the correctness of the information contained on this Website or the appropriateness of the information contained
                 on this Website for your requirements. The exchange rate you see on the website may vary from the rate in store.
                 <br /> <br />
-                Due to exchange rate fluctuations, Chichester FX have the right to cancel any orders without warning.
+                Due to exchange rate fluctuations, Worthing FX have the right to cancel any orders without warning.
             </p>
             {/* option 2 */}
             <h3 className="font-bold text-2xl my-4 text-[#4A54A4]">PAYMENT TRANSACTIONS</h3>
@@ -97,8 +97,8 @@ const TcContent = () => {
             <h3 className="font-bold text-2xl my-4 text-[#4A54A4]">Alteration of Terms</h3>
 
             <p className="text-normal my-8">
-                Chichester FX Services may, at any time, with instant effect, in respect of future orders, change, suspend or withdraw the Website, the Service and these Online Terms and Conditions
-                without notice and without liability to you. By using the Website or the Service or by placing orders after Chichester FX Services has changed these terms, you will be accepting the
+                Worthing FX Services may, at any time, with instant effect, in respect of future orders, change, suspend or withdraw the Website, the Service and these Online Terms and Conditions
+                without notice and without liability to you. By using the Website or the Service or by placing orders after Worthing FX Services has changed these terms, you will be accepting the
                 changes. These Online Terms and Conditions were last updated in November 2017.
             </p>
 
@@ -154,7 +154,7 @@ const TcContent = () => {
 
             <li className="text-normal my-8">
                 We will be responsible to you for all Payment Transactions that are initiated by you via any of our authorised agents. All our authorised agents are listed on the FCA Register under
-                the name of Chichester FX Services LTD.
+                the name of Worthing FX Services LTD.
             </li>
             {/* option 11 */}
             <h3 className="font-bold text-2xl my-4 text-[#4A54A4]">YOUR OBLIGATIONST</h3>
@@ -317,9 +317,9 @@ const TcContent = () => {
                 </p>
 
                 <p> A. by telephoning us on 01903 202702 OR 01273 030708</p>
-                <p>B. by writing to us at 35 Chapel Road, Chichester, West Sussex, BN11 1EG OR 123 Queens Road, Brighton, BN1 3WB</p>
+                <p>B. by writing to us at 35 Chapel Road, Worthing, West Sussex, BN11 1EG OR 123 Queens Road, Brighton, BN1 3WB</p>
 
-                <p>C. by emailing us at support@worthing.co.uk OR support@chichesterFx.com </p>
+                <p>C. by emailing us at support@worthingfx.co.uk OR support@brightonfx.com </p>
 
                 <li>
                     Refunds of the Money Transfer amount, and subsequent cancellation of the underlying transaction, will be made upon the User's valid written request if payment of the Money Transfer
@@ -420,14 +420,14 @@ const TcContent = () => {
 
                 <p>
                     We aim to provide the highest level of customer service possible. If you do experience a problem, we will always seek to resolve this as quickly and efficiently as possible.
-                    However, if you are unhappy and would like to make a complaint, please contact us by telephone on 01903202702 or 01273 030708, e-mail at support@chichesterfx.com or
-                    support@brighton.com or write to
+                    However, if you are unhappy and would like to make a complaint, please contact us by telephone on 01903202702 or 01273 030708, e-mail at support@worthingfx.co.uk or
+                    support@chichesterfx.com or write to
                 </p>
 
                 <br />
                 <h3>
-                    Chichester Fx Services, 35 Chapel Road <br />
-                    Chichester, West Sussex, BN11 1 EG <br />
+                    Worthing Fx Services, 35 Chapel Road <br />
+                    Worthing, West Sussex, BN11 1 EG <br />
                 </h3>
 
                 <h1>or</h1>
