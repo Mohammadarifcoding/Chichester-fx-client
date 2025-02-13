@@ -30,35 +30,35 @@ const ContacthtmlForm = () => {
                             referrerPolicy="no-referrer-when-downgrade"
                         />
 
-<div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
-                        <div className='lg:w-1/2'>
-                            <div className="w-full px-6">
-                                <h2 className="title-font font-bold text-gray-900 tracking-widest md:text-xl sm:text-lg text-base">Worthing FX </h2>
-                                <p className="mt-1 md:text-base text-sm">35 CHAPEL RD WORTHING BN11 1EG Tel:01903 202702</p>
-                            </div>
-                            <div className="w-full px-6 mt-4">
-                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">PHONE</h2>
-                                <p className="leading-relaxed md:text-base text-sm">01903 202702</p>
-                            </div>
-                            <div className="w-full px-6 mt-4">
-                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">Email</h2>
-                                <p className="leading-relaxed md:text-base text-sm">support@worthingfx.co.uk</p>
-                            </div>
+                        <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                            <div className='lg:w-1/2'>
+                                <div className="w-full px-6">
+                                    <h2 className="title-font font-bold text-gray-900 tracking-widest md:text-xl sm:text-lg text-base">Worthing FX </h2>
+                                    <p className="mt-1 md:text-base text-sm">35 CHAPEL RD WORTHING BN11 1EG Tel:01903 202702</p>
+                                </div>
+                                <div className="w-full px-6 mt-4">
+                                    <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">PHONE</h2>
+                                    <p className="leading-relaxed md:text-base text-sm">01903 202702</p>
+                                </div>
+                                <div className="w-full px-6 mt-4">
+                                    <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">Email</h2>
+                                    <p className="leading-relaxed md:text-base text-sm">support@worthingfx.co.uk</p>
+                                </div>
                             </div>
 
                             <div className='lg:w-1/2 lg:mt-0 mt-6'>
-                            <div className="w-full px-6">
-                                <h2 className="title-font font-bold text-gray-900 tracking-widest md:text-xl sm:text-lg text-base">Chichester FX </h2>
-                                <p className="mt-1 md:text-base text-sm">37 East Street CHICHESTER P019 1HS Tel:01903 202702</p>
-                            </div>
-                            <div className="w-full px-6 mt-4">
-                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">PHONE</h2>
-                                <p className="leading-relaxed md:text-base text-sm">01903 202702</p>
-                            </div>
-                            <div className="w-full px-6 mt-4">
-                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">Email</h2>
-                                <p className="leading-relaxed md:text-base text-sm">support@chichesterfx.com</p>
-                            </div>
+                                <div className="w-full px-6">
+                                    <h2 className="title-font font-bold text-gray-900 tracking-widest md:text-xl sm:text-lg text-base">Chichester FX </h2>
+                                    <p className="mt-1 md:text-base text-sm">37 East Street CHICHESTER P019 1HS Tel:01243 306 565</p>
+                                </div>
+                                <div className="w-full px-6 mt-4">
+                                    <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">PHONE</h2>
+                                    <p className="leading-relaxed md:text-base text-sm">01243 306 565</p>
+                                </div>
+                                <div className="w-full px-6 mt-4">
+                                    <h2 className="title-font font-semibold text-gray-900 tracking-widest text-small mt-4">Email</h2>
+                                    <p className="leading-relaxed md:text-base text-sm">support@chichesterfx.com</p>
+                                </div>
                             </div>
 
 
@@ -83,7 +83,7 @@ const ContacthtmlForm = () => {
 
 
                         </div>
-                        
+
                     </div>
                     <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                         <h2 className="text-gray-900 text-4xl mb-1 font-bold title-font">Contact Chichester FX</h2>

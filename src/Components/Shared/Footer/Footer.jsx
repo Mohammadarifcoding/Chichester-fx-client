@@ -79,18 +79,18 @@ const Footer = () => {
      <div className="w-full md:w-1/2 lg:w-1/4 mb-4 md:mb-0 flex flex-col gap-2">
        <h2 className="text-2xl font-bold mb-3">GET IN TOUCH</h2>
        <p className="flex gap-x-4 items-center"><FaMapLocationDot/> 37 East Street CHICHESTER P019 1HS </p>
-       <p className="flex gap-x-4 items-center" > <FaPhoneVolume />01903 202702</p>
+       <p className="flex gap-x-4 items-center" > <FaPhoneVolume />01243 306 565</p>
        <p className="flex gap-x-4 items-center" > <IoIosMail />support@chichesterfx.com</p>
        <p className="flex gap-x-4 items-start" > <IoMdTime />Opening hours <br /> Monday to Saturday : 9AM to 5Pm <br />
-       Sunday : 10Am to 2Pm </p>
+       Sunday : Closed </p>
      </div>
    </div>
  </div >
  {/* copyright Section */}
- <h2 className="text-white text-[15px] mt-16  mb-3 ">Chichester Fx IS A TRADING NAME OF WORTHING FX SERVICES LTD,REGISTERED IN ENGLAND AND WALES UNDER NUMBER 10874304,REGISTERED ADDRESS: 37 East Street CHICHESTER P019 1HS.</h2>
+ <h2 className="text-white text-[15px] mt-16  mb-3 ">Chichester Fx IS A TRADING NAME OF WORTHING FX SERVICES LTD,REGISTERED IN ENGLAND AND WALES UNDER NUMBER 10874304,REGISTERED ADDRESS: 35 Chapel Road, Worthing, West Sussex, BN11 1EG</h2>
  <div className="border-t-2">
  <div className=" px-20 py-4 flex justify-between ">
-   <p>Copyright © 2024 Chichester FX All rights reserved.</p>
+   <p>Copyright © 2025 Chichester FX All rights reserved.</p>
    <div>
        <ul className="flex gap-x-4 text-xl items-center">
         <li>

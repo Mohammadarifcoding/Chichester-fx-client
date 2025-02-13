@@ -168,10 +168,10 @@ const CheckingPoint = ({ setAddressSelected, setNextForm, nextFrom, currentWay }
                         >
                             <option value="location">Select location</option>
 
-                            <option disabled value="37 East Street CHICHESTER P019 1HS Tel: 01903 202702">(Opening Soon) 37 East Street CHICHESTER P019 1HS Tel: 01903 202702</option>
+                            <option disabled value="37 East Street CHICHESTER P019 1HS Tel: 01903 202702">(Opening Soon) 37 East Street CHICHESTER P019 1HS Tel: 01243 306 565</option>
                             <option value="35 CHAPEL ROAD WORTHING BN11 1EG Tel: 01903 202702">35 CHAPEL ROAD WORTHING BN11 1EG Tel: 01903 202702</option>
-                            <option value="123 QUEENS ROAD BRIGHTON BN1 3WB Tel: 01903 202702">123 QUEENS ROAD BRIGHTON BN1 3WB Tel: 01903 202702</option>
-                            <option value="172 High Street North, E6 2JA,London Tel: 01903 202702">172 High Street North, E6 2JA,London Tel: 01903 202702</option>
+                            <option value="123 QUEENS ROAD BRIGHTON BN1 3WB Tel: 01903 202702">123 QUEENS ROAD BRIGHTON BN1 3WB Tel: 01273 030 708</option>
+                            <option className="uppercase" value="172 High Street North, E6 2JA,London Tel: 01903 202702">172 High Street North, E6 2JA,London Tel: 020 8552 4724</option>
                             
                         </select>
                         <div className="flex justify-end mt-5 ">

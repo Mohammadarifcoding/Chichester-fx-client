@@ -17,14 +17,11 @@ const Banner = () => {
                 Global Currency Connect
               </h2>
               <p className="text-gray-300  lg:ml-0 lg:mr-auto mx-auto  pt-4 lg:text-start text-center max-w-[500px] md:text-xl sm:text-lg text-base">
-              Get your travel money hassle-free at our bureau de change.
-Enjoy 0% commission on currency exchanges, competitive
-exchange rates, and the convenience of click & collect. We
-offer over 70 currencies for your next adventure!
+              Best currency exchange in Chichester! 0% commission on a wide range of 70 + currencies in stock. Reserve online and pay in store.
               </p>
             </div>
             <div className="lg:w-1/2 w-full flex justify-center items-center">
-            <Calculator></Calculator>
+              <Calculator></Calculator>
             </div>
           </div>
         </Container>

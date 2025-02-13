@@ -7,7 +7,7 @@ const TcContent = () => {
                 payment services with FCA register number 942118 and trades under the name 'Chichester FX, Worthing FX, WORFX' (hereinafter "we”, “our” or “us”).
             </h2>
             <p className="text-normal my-8">
-                1. These terms and conditions (the “Terms and Conditions”) are applicable to and are available on our website www.brightonfx.com (“Our Website”). They explain your responsibilities to
+                1. These terms and conditions (the “Terms and Conditions”) are applicable to and are available on our website WWW.CHICHESTERFX.COM (“Our Website”). They explain your responsibilities to
                 us and our responsibilities to you, including (i) how our agreement with you can be terminated prior to completion of a Payment Transaction, (ii) under what circumstances a Payment
                 Order may be cancelled and (iii) the extent of our liability to you. These Terms set out your legal rights and obligations when using the Service. We recommend that you read these
                 carefully. By accessing and using the Service, you agree to be bound by the terms of this Agreement.
@@ -317,9 +317,9 @@ const TcContent = () => {
                 </p>
 
                 <p> A. by telephoning us on 01903 202702 OR 01273 030708</p>
-                <p>B. by writing to us at 35 Chapel Road, Worthing, West Sussex, BN11 1EG OR 123 Queens Road, Brighton, BN1 3WB</p>
+                <p>B. by writing to us at 35 Chapel Road, Worthing, West Sussex, BN11 1EG OR 37 EAST STREET, CHICHESTER, PO19 1HS</p>
 
-                <p>C. by emailing us at support@worthingfx.co.uk OR support@brightonfx.com </p>
+                <p>C. by emailing us at support@worthingfx.co.uk OR support@chichesterfx.com </p>
 
                 <li>
                     Refunds of the Money Transfer amount, and subsequent cancellation of the underlying transaction, will be made upon the User's valid written request if payment of the Money Transfer
@@ -435,9 +435,9 @@ const TcContent = () => {
                 <br />
 
                 <h3>
-                    Chichester FX 123 Queens Road <br />
-                    Brighton <br />
-                    BN1 3WB <br />
+                    CHICHESTER FX 37 EAST STREET, <br />
+                    Chichester <br />
+                    PO19 1HS <br />
                 </h3>
             </div>
         </div>
