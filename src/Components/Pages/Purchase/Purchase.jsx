@@ -11,11 +11,26 @@ import { useParams } from "react-router-dom";
 
 const Purchase = () => {
   const [purchaseData, setPurchaseeData] = useState(
-    JSON.parse(localStorage.getItem("purchase"))
+    JSON.parse(localStorage.getItem("purchase")).filter(item => {
+      const itemDate = new Date(item.date);
+      const diff = new Date().getTime() - itemDate; // This will be positive only if itemDate is in the past
+      return diff >= 0 && diff <= 30 * 60 * 1000;
+    })
   );
+  [
+    {
+        "currencyMy": 60,
+        "currencyTake": "50.59",
+        "currencyTakecurrent": "GBP",
+        "currencyMycurrent": "EUR",
+        "Id": "512c727a-4954-432f-a3ff-0c581c6398da",
+        "Rate": "1.1861",
+        "date": "2024-02-13T04:38:35.399Z"
+    }
+]
   const {currencyParams,currentWay} = useParams()
   
-
+  
   const [currency,refetchCurrency] = UseCurrency()
 
   const [nextFrom,setNextForm] = useState(1)

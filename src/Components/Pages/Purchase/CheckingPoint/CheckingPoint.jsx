@@ -11,7 +11,11 @@ import OrderList from "../../../Dashboard/Pages/OrderDetails/OrderList/OrderList
 
 const CheckingPoint = ({ setAddressSelected, setNextForm, nextFrom, currentWay }) => {
     const AddressForm = useRef();
-    let OrdersData = JSON.parse(localStorage.getItem("purchase"));
+    let OrdersData = JSON.parse(localStorage.getItem("purchase")).filter(item => {
+        const itemDate = new Date(item.date);
+        const diff = new Date().getTime() - itemDate; // This will be positive only if itemDate is in the past
+        return diff >= 0 && diff <= 30 * 60 * 1000;
+      });
     const [address, setAddress] = useState("location");
     const Axious = UseAxious();
     const [Order, setlastOrder] = useState({});
@@ -22,7 +26,11 @@ const CheckingPoint = ({ setAddressSelected, setNextForm, nextFrom, currentWay }
             return toast("Select the checking point");
         }
 
-        const OrderFormLocalStorage = JSON.parse(localStorage.getItem("purchase"));
+        const OrderFormLocalStorage = JSON.parse(localStorage.getItem("purchase")).filter(item => {
+            const itemDate = new Date(item.date);
+            const diff = new Date().getTime() - itemDate; // This will be positive only if itemDate is in the past
+            return diff >= 0 && diff <= 30 * 60 * 1000;
+          });
         if (OrderFormLocalStorage?.length < 1) {
             return toast("Please add currency item");
         }
@@ -52,7 +60,11 @@ const CheckingPoint = ({ setAddressSelected, setNextForm, nextFrom, currentWay }
                 Email: Email,
                 Phone_Number: Phone_Number,
                 Address: address,
-                Orders: JSON.parse(localStorage.getItem("purchase")),
+                Orders: JSON.parse(localStorage.getItem("purchase")).filter(item => {
+                    const itemDate = new Date(item.date);
+                    const diff = new Date().getTime() - itemDate; // This will be positive only if itemDate is in the past
+                    return diff >= 0 && diff <= 30 * 60 * 1000;
+                  }),
                 RateFirst: OrdersData[0].Rate,
                 status: "",
                 Status: "Pending",
@@ -154,9 +166,9 @@ const CheckingPoint = ({ setAddressSelected, setNextForm, nextFrom, currentWay }
                             }}
                             className="w-full px-2 py-2 mt-5 border border-gray-500 rounded-lg outline-gray-500"
                         >
-                            <option value="location">Select locaiton</option>
+                            <option value="location">Select location</option>
 
-                            <option value="37 East Street CHICHESTER P019 1HS Tel: 01903 202702">37 East Street CHICHESTER P019 1HS Tel: 01903 202702</option>
+                            <option disabled value="37 East Street CHICHESTER P019 1HS Tel: 01903 202702">(Opening Soon) 37 East Street CHICHESTER P019 1HS Tel: 01903 202702</option>
                             <option value="35 CHAPEL ROAD WORTHING BN11 1EG Tel: 01903 202702">35 CHAPEL ROAD WORTHING BN11 1EG Tel: 01903 202702</option>
                             <option value="123 QUEENS ROAD BRIGHTON BN1 3WB Tel: 01903 202702">123 QUEENS ROAD BRIGHTON BN1 3WB Tel: 01903 202702</option>
                             <option value="172 High Street North, E6 2JA,London Tel: 01903 202702">172 High Street North, E6 2JA,London Tel: 01903 202702</option>
@@ -249,7 +261,7 @@ const CheckingPoint = ({ setAddressSelected, setNextForm, nextFrom, currentWay }
             </div>
             {nextFrom == 3 ? (
                 <>
-                    <div className="px-3 my-10 sm:px-10 print h-[700px]">
+                    <div className="px-3 mt-10 sm:px-10 print md:h-[700px] h-min">
                         <div className="flex lg:mb-20 mb-7 deleteButton justify-end ">
                             <button onClick={handlePrint} className="px-4 py-2 bg-[#618A2C] rounded-lg text-white">
                                 Print
@@ -257,7 +269,7 @@ const CheckingPoint = ({ setAddressSelected, setNextForm, nextFrom, currentWay }
                         </div>
                         {/* Currency Calculation */}
                         <div className="overflow-auto border border-gray-400">
-                            <div className="px-4 py-2 border-b border-gray-400 bg-[#618a2c] text-white">
+                            <div className="px-4 py-2 border-b border-gray-400 bg-[#618a2c] text-white w-full">
                                 <h1 className=" font-semibold">Order Number: {Order?.Order_Id}</h1>
                             </div>
                             <table className="min-w-full">
@@ -290,7 +302,7 @@ const CheckingPoint = ({ setAddressSelected, setNextForm, nextFrom, currentWay }
                                     <div className="border-gray-400 bg-gray-200 py-3 px-4 w-[80%] text-start">{Order?.Name}</div>
                                 </div>
                                 <div className="flex border-b border-gray-400">
-                                    <div className="py-3 border-r border-gray-400 font-semibold md:w-[20%] w-[30%] text-center bg-[#1E4A9A] text-white">Email</div>
+                                <div className="py-3 border-r border-gray-400 font-semibold md:w-[20%] w-[30%]  text-center bg-[#1E4A9A] text-white">Email</div>
                                     <div className="border-gray-400 bg-gray-200 py-3 px-4 w-[80%] text-start">{Order?.Email}</div>
                                 </div>
                                 <div className="flex border-b border-gray-400">

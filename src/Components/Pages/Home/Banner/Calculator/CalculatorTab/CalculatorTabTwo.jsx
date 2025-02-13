@@ -81,7 +81,8 @@ const CalculatorTabTwo = ({ currencyData, setCurrencyData }) => {
             currencyTakecurrent: currencyData.value,
             currencyMycurrent: "GBP",
             Id: uuidv4(),
-            Rate: (Rate * (1 + upsell / 100)).toFixed(4)
+            Rate: (Rate * (1 + upsell / 100)).toFixed(4),
+            date:new Date(),
         };
         if (currencyMy <= 0) {
             nav(`/purchase/${currencyData.value}/Sell`);
@@ -92,7 +93,11 @@ const CalculatorTabTwo = ({ currencyData, setCurrencyData }) => {
             return toast("Please give correct amount");
         }
 
-        const localStorageData = JSON.parse(localStorage.getItem("purchase"));
+        const localStorageData = JSON.parse(localStorage.getItem("purchase")).filter(item => {
+            const itemDate = new Date(item.date);
+            const diff = new Date().getTime() - itemDate; // This will be positive only if itemDate is in the past
+            return diff >= 0 && diff <= 30 * 60 * 1000;
+          });
         if (localStorageData) {
             if (localStorageData?.length >= 4) {
                 nav(`/purchase/${currencyData.value}/Sell`);

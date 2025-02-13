@@ -108,11 +108,11 @@ const AddProduct = ({ setPurchaseeData, purchaseData, allTheitem, setAllTheItem,
         if (Type == "Sell") {
             const currencyMy = youSell;
             const currencyTake = buyCurrency;
-            value = { currencyMy, currencyTake, currencyTakecurrent: currencyData, currencyMycurrent: "GBP", Id: uuidv4(), Rate: (Rate * (1 + upvalue / 100)).toFixed(4) };
+            value = { currencyMy, currencyTake, currencyTakecurrent: currencyData, currencyMycurrent: "GBP", Id: uuidv4(), Rate: (Rate * (1 + upvalue / 100)).toFixed(4),date:new Date(), };
         } else if (Type == "Order") {
             const currencyMy = ChangeTo10Divisible(buyCurrency);
             const currencyTake = ChangleTakeCurrencyDIffernet10Divisible(buyCurrency);
-            value = { currencyMy, currencyTake, currencyTakecurrent: "GBP", currencyMycurrent: currencyData, Id: uuidv4(), Rate: (Rate * (1 + upvalue / 100)).toFixed(4) };
+            value = { currencyMy, currencyTake, currencyTakecurrent: "GBP", currencyMycurrent: currencyData, Id: uuidv4(), Rate: (Rate * (1 + upvalue / 100)).toFixed(4),date:new Date(), };
         }
 
         const localStorageData = JSON.parse(localStorage.getItem("purchase"));

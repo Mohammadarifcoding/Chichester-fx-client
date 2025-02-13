@@ -31,15 +31,14 @@ const Layout = () => {
             <Outlet></Outlet>
             <Footer></Footer>
             <Helmet>
-                <meta
-                    name="description"
-                    content="Zero commission, competitive rates, and the convenience of click
+            <meta name="title" content="Chichester FX" />
+        <meta name="description" content="Zero commission, competitive rates, and the convenience of click
 & collect at Chichester FX. Choose from over 70 currencies for your
-next adventure."
-                />
+next adventure." />
             </Helmet>
         </div>
     );
 };
 
 export default Layout;
+
